@@ -1,6 +1,7 @@
 name: Merge
 
 on:
+  pull_request:
   merge_group:
     types: [checks_requested]
 
@@ -15,5 +16,7 @@ jobs:
       - name: Setup Go ${{ matrix.go-version }}
         uses: actions/setup-go@v3
 
-      - run: go test ./...
+      - run: |
+          echo ${{github.event_name}}
+          go test ./...
 
