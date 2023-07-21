@@ -17,6 +17,7 @@ jobs:
         uses: actions/setup-go@v3
 
       - run: |
-          echo ${{github.event_name}}
+        if [ ${{github.event_name}} == "merge_group" ]; then
           go test ./...
+        fi
 
