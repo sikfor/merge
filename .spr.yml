@@ -1,0 +1,8 @@
+githubRepoOwner: sikfor
+githubRepoName: merge
+githubHost: github.com
+requireChecks: false
+requireApproval: false
+mergeMethod: rebase
+mergeQueue: true
+forceFetchTags: false
