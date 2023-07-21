@@ -1,8 +1,8 @@
 githubRepoOwner: sikfor
 githubRepoName: merge
 githubHost: github.com
-requireChecks: true
-requireApproval: true
+requireChecks: false
+requireApproval: false
 mergeMethod: rebase
-mergeQueue: false
+mergeQueue: true
 forceFetchTags: false

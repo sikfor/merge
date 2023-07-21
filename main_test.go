@@ -6,7 +6,7 @@ import (
 )
 
 func TestSum(t *testing.T) {
-	time.Sleep(time.Minute * 3)
+	time.Sleep(time.Minute * 4)
 	result := sum(1, 3)
 	if result != 4 {
 		t.Error("got wrong result value")
