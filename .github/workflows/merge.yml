@@ -16,5 +16,8 @@ jobs:
       - name: Setup Go ${{ matrix.go-version }}
         uses: actions/setup-go@v3
 
-      - run: go test ./...
+      - run: |
+          if [ "${{github.event_name}}" == "merge_group" ]; then
+            go test ./...
+          fi
 
