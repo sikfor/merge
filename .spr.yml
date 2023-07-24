@@ -4,5 +4,5 @@ githubHost: github.com
 requireChecks: false
 requireApproval: false
 mergeMethod: rebase
-mergeQueue: true
+mergeQueue: false
 forceFetchTags: false
