@@ -9,8 +9,7 @@ func TestSum(t *testing.T) {
 	// just a comment
 	// comment one
 	// comment two
-	// comment three
-	time.Sleep(time.Minute * 5)
+	time.Sleep(time.Minute * 1)
 	result := sum(1, 3)
 	if result != 4 {
 		t.Error("got wrong result value")
