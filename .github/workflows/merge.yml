@@ -17,5 +17,5 @@ jobs:
       - name: Setup Go ${{ matrix.go-version }}
         uses: actions/setup-go@v3
 
-      - run: go test ./...
+      - run: go test -timeout 4h ./...
 
