@@ -8,7 +8,6 @@ import (
 // lets add some comment here
 
 func TestSum(t *testing.T) {
-	// just a comment
 	// comment one
 	// comment two
 	// comment three
