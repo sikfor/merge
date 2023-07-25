@@ -17,3 +17,5 @@ func TestSum(t *testing.T) {
 		t.Error("got wrong result value")
 	}
 }
+
+// some comment here as well
